@@ -25,3 +25,8 @@ hub.on('memberCreate', member => console.log(member.id));
 
 app.listen(80);
 ```
+
+# License
+
+This NPM module is under the MIT License\
+Please refer yourself to the [LICENSE file](./LICENSE)
