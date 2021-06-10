@@ -1,6 +1,6 @@
 {
   "name": "patreon-webhooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Patreon webhooks handler with caching and IntelliSense support",
   "type": "commonjs",
   "types": "./typings/index.d.ts",
