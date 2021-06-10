@@ -93,19 +93,17 @@ declare module 'patreon-webhooks' {
          * The user is not a pledging patron but has subscribed to updates about public posts.
          */
         isFollower: boolean;
-        lastCharge: {
-            /**
-             * Datetime of last attempted charge. `null` if never charged
-             */
-            date: Date | null;
-            /**
-             * The result of the last attempted charge.
-             * The only successful status is `Paid`. `null` if never charged.
-             * One of Paid, `Declined`, `Deleted`, `Pending`, `Refunded`, `Fraud`, `Other`.
-             * @type {ChargeStatus}
-             */
-            status: ChargeStatus;
-        };
+        /**
+         * Datetime of last attempted charge. `null` if never charged
+         */
+        lastChargeDate: Date | null;
+        /**
+         * The result of the last attempted charge.
+         * The only successful status is `Paid`. `null` if never charged.
+         * One of Paid, `Declined`, `Deleted`, `Pending`, `Refunded`, `Fraud`, `Other`.
+         * @type {ChargeStatus}
+         */
+        lastChargeStatus: ChargeStatus;
         /**
          * The total amount that the member has ever paid to the campaign. 0 if never paid.
          */
