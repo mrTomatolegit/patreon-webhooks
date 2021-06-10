@@ -14,11 +14,16 @@
     "express": "^4.17.1"
   },
   "keywords": [
-    "patreon",
-    "webhooks",
     "caching",
+    "webhooks",
+    "express",
+    "cache",
+    "expressjs",
     "intellisense",
-    "express"
+    "patreon",
+    "patreon-api",
+    "webhook-server",
+    "intellisense-support"
   ],
   "repository": {
     "type": "git",
