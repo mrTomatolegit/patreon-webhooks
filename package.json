@@ -1,0 +1,35 @@
+{
+  "name": "patreon-webhooks",
+  "version": "1.0.0",
+  "description": "Patreon webhooks handler with caching and IntelliSense support",
+  "type": "commonjs",
+  "types": "./typings/index.d.ts",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrTomatolegit",
+  "license": "MIT",
+  "optionalDependencies": {
+    "express": "^4.17.1"
+  },
+  "keywords": [
+    "patreon",
+    "webhooks",
+    "caching",
+    "intellisense",
+    "express"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrTomatolegit/patreon-webhooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrTomatolegit/patreon-webhooks/issues"
+  },
+  "homepage": "https://github.com/mrTomatolegit/patreon-webhooks#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}

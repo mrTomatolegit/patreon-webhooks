@@ -1,0 +1,9 @@
+# Auto generated stuff
+node_modules
+package-lock.json
+
+# Dev specific stuff
+src/_cindex.js
+tests
+TODO
+.gitignore

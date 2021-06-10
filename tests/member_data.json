@@ -1,0 +1,36 @@
+{
+    "data": {
+        "attributes": {
+            "access_expires_at": null,
+            "campaign_currency": "USD",
+            "campaign_lifetime_support_cents": 12345,
+            "campaign_pledge_amount_cents": 350,
+            "full_name": "John Macbelly",
+            "is_follower": false,
+            "last_charge_date": "2014-04-01T00:00:00.000+00:00",
+            "last_charge_status": "Paid",
+            "lifetime_support_cents": 12345,
+            "patron_status": "active_patron",
+            "pledge_amount_cents": 350,
+            "pledge_relationship_start": "2014-03-14T00:00:00.000+00:00"
+        },
+        "id": "1234567",
+        "relationships": {
+            "address": {
+                "data": { "id": "1234567", "type": "address" },
+                "links": { "related": "https://www.patreon.com/api/addresses/1234567" }
+            },
+            "campaign": {
+                "data": { "id": "1234567", "type": "campaign" },
+                "links": { "related": "https://www.patreon.com/api/campaigns/1234567" }
+            },
+            "user": {
+                "data": { "id": "1234567", "type": "user" },
+                "links": { "related": "https://www.patreon.com/api/user/1234567" }
+            }
+        },
+        "type": "member"
+    },
+    "included": [],
+    "links": { "self": "https://www.patreon.com/api/members/1234567" }
+}
