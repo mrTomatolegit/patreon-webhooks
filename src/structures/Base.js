@@ -97,14 +97,14 @@ class Base {
             const value = newRels[prop];
             const x = { data: value };
 
-            if (!Array.isArray(value)) {
+            if (value && !Array.isArray(value)) {
                 x.links = {
                     related: `https://www.patreon.com/api/${Base.resolveApiEndpoint(value.type)}/${
                         value.id
                     }`
                 };
             }
-            json.relationships[prop] = x;
+            json.relationships[prop] = value ? x : {};
         }
 
         return json;
